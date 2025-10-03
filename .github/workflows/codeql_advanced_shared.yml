@@ -1,5 +1,9 @@
+#################################################
+# WARNING: Do not rename or move this file without updating all dependent workflows.
+#################################################
+
 # Shared CodeQL workflow with advanced setup.
-# To be distributed via workflow_call to other workflows.
+# Distributed via workflow_call to other workflows across multiple repos.
 name: "CodeQL Advanced Shared"
 
 on:
