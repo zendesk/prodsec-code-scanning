@@ -1,0 +1,8 @@
+name: "Call CodeQL Advanced Workflow"
+
+on:
+  workflow_dispatch
+
+jobs:
+  trigger-codeql:
+    uses: zendesk/prodsec-codeql-zero-to-hero/.github/workflows/codeql.yml@main
