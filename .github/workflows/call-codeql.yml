@@ -1,8 +1,0 @@
-name: "Call CodeQL Advanced Distributed Workflow"
-
-on:
-  workflow_dispatch:
-
-jobs:
-  trigger-codeql:
-    uses: zendesk/prodsec-test-github-workflows/.github/workflows/codeql_distributed.yml@main
