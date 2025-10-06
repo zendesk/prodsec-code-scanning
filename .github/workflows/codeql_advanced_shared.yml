@@ -8,6 +8,8 @@ name: "CodeQL Advanced Shared"
 
 on:
   workflow_call:
+  pull_request_target:
+    types: [ opened, synchronize, reopened ]
 
 permissions:
   contents: read
