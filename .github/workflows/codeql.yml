@@ -1,4 +1,4 @@
-name: "Call CodeQL Advanced Shared Workflow"
+name: "CodeQL public repository scanning"
 
 on:
   push:
