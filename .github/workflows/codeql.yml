@@ -17,4 +17,4 @@ permissions:
 
 jobs:
   trigger-codeql:
-    uses: zendesk/prodsec-code-scanning/.github/workflows/codeql_advanced_shared.yml@main
+    uses: zendesk/prodsec-code-scanning/.github/workflows/codeql_advanced_shared.yml@production
