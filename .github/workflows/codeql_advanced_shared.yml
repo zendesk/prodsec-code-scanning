@@ -1,6 +1,6 @@
-#################################################
-# WARNING: Do not rename or move this file without updating all dependent workflows.
-#################################################
+######################################################################################
+# WARNING: Do not rename or move this file without updating all dependent workflows. #
+######################################################################################
 
 # Shared CodeQL workflow with advanced setup.
 # Distributed via workflow_call to other workflows across multiple repos.
@@ -73,8 +73,9 @@ jobs:
 
         # For more details on CodeQL's query packs, refer to: https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
+        queries: security-extended
 
-    # If the analyze step fails for one of the languages you are analyzing with
+      # If the analyze step fails for one of the languages you are analyzing with
     # "We were unable to automatically build your code", modify the matrix above
     # to set the build mode to "manual" for that language. Then modify this step
     # to build your code.
