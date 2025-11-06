@@ -75,7 +75,8 @@ jobs:
         # queries: security-extended,security-and-quality
 
         queries: +security-and-quality # Prefixed with "+" to run these queries in addition to the default queries
-        packs: +githubsecuritylab/codeql-javascript-queries
+        packs:
+          - codeql/actions-queries:.
 
       # If the analyze step fails for one of the languages you are analyzing with
     # "We were unable to automatically build your code", modify the matrix above
